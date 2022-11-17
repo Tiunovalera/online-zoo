@@ -1,0 +1,10 @@
+.button{
+  @include font(1.6rem, 2.4rem, 500);
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 16px 65px;
+  color: $color-text-light;
+  border: none;
+}

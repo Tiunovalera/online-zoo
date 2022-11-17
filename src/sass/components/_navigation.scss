@@ -1,0 +1,19 @@
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.navigation__link{
+  @extend %transition;
+  list-style: none;
+  cursor: pointer;
+  &:hover{
+    color: $color-text-hovered;
+  }
+  &:not(:last-child){
+    margin-right: 58px;
+  }
+
+}
+
