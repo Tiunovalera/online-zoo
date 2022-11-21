@@ -1,0 +1,40 @@
+.gallery{
+  background: url(./../img/backgrounds/plant.png)0 100% no-repeat,
+  url(./../img/backgrounds/strelitzia.png)100% 100% no-repeat;
+  background-size: auto, auto;
+
+  padding-bottom: 100px;
+}
+
+.gallery__wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery__block{
+  padding-bottom: 40px;
+}
+
+.gallery__item{
+  border-radius: 5px;
+  border: 1px solid $color-border;
+  margin-bottom: 20px;
+  &>img{
+    border-radius: 5px 5px 0 0;
+  }
+}
+
+.gallery-item__title{
+  text-transform: uppercase;
+}
+
+.gallery-item__subtitle{
+  @include font(1.5rem, 1.8rem, 300);
+}
+
+.gallery-item__description{
+  display: flex;
+  justify-content: space-between;
+  padding: 13px;
+}

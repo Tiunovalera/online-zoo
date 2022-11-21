@@ -12,9 +12,13 @@
 @import "layouts/wrapper";
 @import "layouts/columns";
 @import "layouts/header";
-
+@import "layouts/footer";
 
 //Components
 @import "components/navigation";
 @import "components/logo";
 @import "components/promo";
+@import "components/backstage";
+@import "components/gallery";
+@import "components/feed";
+@import "components/testimonials";

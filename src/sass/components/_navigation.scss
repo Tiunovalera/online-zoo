@@ -1,13 +1,13 @@
 .navigation{
   display: flex;
   justify-content: space-between;
-  
 }
 
 .navigation__link{
   @extend %transition;
   list-style: none;
   cursor: pointer;
+  color: $color-text-light;
   &:hover{
     color: $color-text-hovered;
   }
