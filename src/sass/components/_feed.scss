@@ -1,0 +1,72 @@
+.feed{
+  background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+  opacity: 0.9;
+  padding: 69px 0 100px;
+}
+
+.feed__wrapper{
+  background: rgba(253, 253, 255, 0.52);
+  backdrop-filter: blur(2px);
+  border-radius: 20px;
+  padding: 41px 0 59px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feed__title{
+  color: $color-text-title;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.feed__info-block{
+  padding-left: 99px;
+}
+
+.feed_subtitle{
+  margin-bottom: 40px;
+}
+
+.feed__text{
+  margin-bottom: 10px;
+}
+
+.feed__subtext{
+  max-width: 863px;
+  margin-bottom: 60px;
+}
+
+.how-it-works{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 198px;
+  margin-bottom: 60px;
+}
+
+.how-it-works__title{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.how-it-works__item{
+  max-width: 168px;
+}
+
+.how-it-works__card{
+  border: 1px solid $color-border;
+  margin-bottom: 30px;
+  padding: auto;
+}
+
+.card-image{
+  width: 168px;
+  height: 168px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button__block{
+   display: flex;
+   justify-content: center;
+}

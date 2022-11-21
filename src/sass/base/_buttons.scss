@@ -4,7 +4,16 @@
   border-radius: 25px;
   text-align: center;
   text-transform: uppercase;
-  padding: 16px 65px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding: 16px 0;
   color: $color-text-light;
   border: none;
+  width: 298px;
+  cursor: pointer;
+  &-down{
+    align-self: flex-start;
+    border-radius: 5px;
+  }
 }

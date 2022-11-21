@@ -1,0 +1,27 @@
+.backstage{
+  background-image: url(./../img/backgrounds/flowers.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.backstage__wrapper{
+  padding: 120px 0 150px;
+}
+
+.backstage__image{
+  background-image: url(./../img/backstage/backstage.jpg);
+  background-size: cover;
+
+}
+
+.backstage__text{
+  max-width: 465px;
+}
+
+.backstage__title{
+  margin-bottom: 20px;
+}
+
+.backstage__subtitle{
+  padding: 34px 0 14px;
+}
